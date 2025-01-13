@@ -6,7 +6,7 @@ import { TbChartCircles, TbPuzzle } from 'react-icons/tb'
 
 const Sidebar = () => {
     return (
-        <div className='px-4 py-6 border border-r-gray-400 max-w-fit h-full min-h-[90.8vh] flex items-center flex-col justify-between'>
+        <div className='px-4 py-6 border border-r-gray-400 max-w-fit h-full min-h-[91vh] flex items-center flex-col justify-between'>
 
             <div className='flex flex-col gap-5'>
                 <FiTable size={24} className='text-gray-800' />

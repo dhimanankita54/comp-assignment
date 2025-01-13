@@ -94,7 +94,7 @@ const Grid = () => {
       if (!tableContainerRef.current) return 0;
 
       const containerHeight = tableContainerRef.current.offsetHeight; // Total container height
-      const rowHeight = 41; // Approximate height of one row in pixels (adjust if needed)
+      const rowHeight = 42; // Approximate height of one row in pixels (adjust if needed)
       const renderedRowsHeight = rows.length * rowHeight;
 
       const remainingHeight = containerHeight - renderedRowsHeight;

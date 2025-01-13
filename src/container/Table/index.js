@@ -5,7 +5,7 @@ import Grid from './Grid';
 const Table = () => {
   
   return (
-    <div className='flex flex-col w-full overflow-auto'>
+    <div className='flex flex-col w-full h-full overflow-auto'>
       <div id='table-header'>
         <TableHeader />
       </div>
