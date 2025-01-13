@@ -117,7 +117,7 @@ const Grid = () => {
   }, [rows]);
 
   return (
-    <div className="bg-[#F6F6F6]">
+    <div className="bg-[#F6F6F6] h-full">
       <div ref={tableContainerRef} className="overflow-x-auto h-[77vh]">
         <table className="min-w-full border-collapse border border-gray-100">
           {/* Table Header */}
